@@ -41,6 +41,8 @@ Tender tracker dashboard/
 |   |   |-- api/
 |   |   |-- components/
 |   |   |-- pages/
+|   |   |-- reference/
+|   |   |   `-- tender-dashboard/
 |   |   `-- styles/
 |   `-- vite.config.js
 |
@@ -59,40 +61,15 @@ Tender tracker dashboard/
 |   `-- tests/
 |
 |-- README.md
-|-- project structure.md
 |-- .gitignore
 |
-|-- data/
-|   |-- tenders.xlsx
-|   |-- sample_tenders.xlsx
-|
-|-- src/
-|   |-- __init__.py
-|   |-- config.py
-|   |-- data_loader.py
-|   |-- data_validation.py
-|   |-- kpi_calculations.py
-|   |-- filters.py
-|   |-- tender_summary.py
-|   |-- word_export.py
-|
-|-- pages/
-|   |-- dashboard.py
-|   |-- tender_register.py
-|   |-- tender_details.py
-|
-|-- assets/
-|   |-- logo/
-|   |-- styles/
-|
-|-- Tender Summery Pattern/
-|   |-- Tender Summery Prompt.txt
-|   |-- Tender_Summary_Master_Template.docx
-|
-|-- tests/
-|   |-- test_data_validation.py
-|   |-- test_kpi_calculations.py
-|   |-- test_tender_summary.py
+|-- project tools and other/
+|   |-- project structure.md
+|   |-- Tender Summery Pattern/
+|   |   |-- Tender Summery Prompt.txt
+|   |   `-- Tender_Summary_Master_Template.docx
+|   `-- tools/
+|       `-- ponytail/
 ```
 
 ## 5. Tender Data Model
