@@ -1,0 +1,609 @@
+# TENDER SUMMARY WORD FILE — MASTER INSTRUCTION
+
+## PURPOSE
+
+Create a simple, concise, and informative Tender Summary in Word format for senior management.
+
+The purpose of this document is to give a senior person a quick understanding of the tender and the important information needed to decide whether the tender deserves further consideration.
+
+The Word summary is NOT the full tender analysis.
+
+Do not overload it with unnecessary information.
+
+The final document should normally be around 2–5 pages depending on the size and complexity of the tender.
+
+---
+
+# 1. FIRST CHECK SOFTWARE/IT RELEVANCE
+
+Before preparing the summary, first determine whether the tender is related to:
+
+- Software
+- IT
+- ICT
+- Digital systems
+- Information systems
+- Data
+- Technology
+- Software development
+- System implementation
+- IT operation/maintenance
+- Technology infrastructure
+
+Classify it as:
+
+- SOFTWARE / IT RELATED
+- PARTIALLY SOFTWARE / IT RELATED
+- NOT SOFTWARE / IT RELATED
+- UNCLEAR
+
+Do not assume that a tender is software-related.
+
+A tender should only be considered software/IT related when the tender contains a meaningful software, IT, ICT, digital, data, information-system, or technology component.
+
+If it is NOT software-related, clearly mention that in the summary.
+
+---
+
+# 2. DO NOT ASSUME ANYTHING
+
+Use only information supported by the tender documents.
+
+Do NOT assume:
+
+- Technology stack
+- Programming language
+- Framework
+- Database
+- Cloud platform
+- Architecture
+- Software tools
+- Eligibility
+- JV requirement
+- Local partner requirement
+- Budget
+- Experience requirement
+- Certification
+- Team requirement
+- Evaluation method
+- Contract duration
+- Submission requirements
+
+If information is not found:
+
+**Not specified in the tender documents.**
+
+If information cannot be determined:
+
+**Cannot be determined from the available documents.**
+
+---
+
+# 3. TECHNOLOGY RULE
+
+Never assume a technology stack.
+
+If the tender explicitly mentions a technology, include it.
+
+Example:
+
+If the tender says:
+
+"Oracle Database"
+
+write:
+
+**Oracle Database**
+
+If the tender says:
+
+"Web-based application"
+
+write:
+
+**Web-based application**
+
+Do NOT convert this into:
+
+**React + FastAPI + PostgreSQL + AWS**
+
+unless the tender explicitly says so.
+
+If no specific technology is mentioned:
+
+**Technology: Not specified in the tender documents.**
+
+Do not provide technology recommendations in the Tender Summary unless I specifically ask for them.
+
+---
+
+# 4. JV / CONSORTIUM RULE
+
+Only report what the tender says about:
+
+- JV
+- Consortium
+- Subcontracting
+- Lead member
+- Local partner
+
+For example:
+
+**JV participation: Permitted subject to the TDS requirements.**
+
+or:
+
+**JV: Not specified in the tender documents.**
+
+or:
+
+**JV: Not permitted according to the tender.**
+
+Do NOT say:
+
+- "We need a JV."
+- "We should form a JV."
+- "JV is recommended."
+- "Our company needs a partner because we are not eligible."
+
+The decision about whether our company should bid alone, form a JV, use a consortium, or subcontract will be made separately by management.
+
+The summary should only present the tender's actual JV position.
+
+---
+
+# 5. WORD DOCUMENT FORMAT
+
+Keep the Word document simple and similar to a practical internal tender summary.
+
+Use the following structure.
+
+---
+
+# Tender Summary
+
+## Basic Information
+
+Country:
+Project Name:
+Tender Title:
+Reference No:
+Tender ID:
+Client/Organization:
+Portal:
+Last Date:
+Submission Time:
+
+If a field is not available:
+
+**Not specified in the tender documents.**
+
+---
+
+# Requirements
+
+## Main Idea
+
+Write a short paragraph explaining:
+
+- What the tender is about.
+- What the client wants.
+- What the contractor/consultant will mainly do.
+- The main software/IT component, if applicable.
+
+Keep this short and easy to understand.
+
+Do not copy large portions of the tender.
+
+---
+
+## Commercial Requirements
+
+Include only important commercial information, such as:
+
+- Tender security
+- Tender security deadline
+- Tender document price
+- Contract value, if stated
+- Budget, if stated
+- Contract/service period
+- Payment information, if important
+- Performance security, if important
+- Other major commercial conditions
+
+Use short bullet points.
+
+Example:
+
+• Tender security: BDT XX  
+• Contract period: 3 years  
+• Tender document price: BDT XX  
+• Submission deadline: XX  
+
+Do not include commercial information that is not relevant to decision-making.
+
+---
+
+## Technical Requirements
+
+Summarize the major technical requirements.
+
+Focus on what the bidder actually has to provide or operate.
+
+Examples:
+
+• Web-based information management system.  
+• Database development/management.  
+• API integration.  
+• Mobile application.  
+• Data migration.  
+• System maintenance and support.  
+• Cybersecurity requirements.  
+• Reporting/dashboard system.  
+
+Do not include every minor technical clause.
+
+Do not invent technical requirements.
+
+---
+
+## Software / Technology Mentioned
+
+Include only technologies or systems explicitly mentioned in the tender.
+
+Examples:
+
+• Oracle Database  
+• RFID  
+• GIS  
+• API integration  
+• Linux  
+• Microsoft SQL Server  
+
+If the tender does not specify a technology:
+
+**Software / Technology: Not specifically stated in the tender documents.**
+
+Do not recommend a technology stack here.
+
+---
+
+## Operational / Service Requirements
+
+Summarize important operational responsibilities.
+
+Examples:
+
+• System operation and maintenance.  
+• User support.  
+• Training.  
+• Data management.  
+• Hardware maintenance.  
+• Field support.  
+• Monitoring.  
+• Reporting.  
+• Security operations.  
+
+Only include requirements that actually appear in the tender.
+
+---
+
+# Key Eligibility / Qualification
+
+Include only the most important eligibility requirements.
+
+Examples:
+
+• General experience: Minimum X years.  
+• Similar experience: At least X similar projects.  
+• Similar project value: Minimum BDT X.  
+• Average annual turnover: Minimum BDT X.  
+• Financial resources: Minimum BDT X.  
+• Required certification: X.  
+• Local presence: X.  
+• Other critical requirement: X.
+
+Do not assume that our company is eligible or ineligible.
+
+This section describes the TENDER REQUIREMENT.
+
+If bidder-specific information is available, a separate assessment may be made in the full analysis.
+
+---
+
+# JV / Consortium
+
+Briefly state the tender position.
+
+Example:
+
+**JV participation: Permitted subject to the conditions specified in the TDS.**
+
+If applicable, also mention:
+
+• Lead member requirement  
+• Member qualification requirement  
+• Experience combination rules  
+• Financial capacity rules  
+• Local partner requirement  
+• JV agreement requirement  
+
+Keep this section short.
+
+Do not make the JV decision for management.
+
+---
+
+# Documents Required in Submission
+
+List the important submission documents.
+
+Examples:
+
+• Tender/contract forms.  
+• Company registration documents.  
+• Tax/VAT documents.  
+• Financial statements.  
+• Similar project evidence.  
+• CVs and qualification documents.  
+• Technical proposal/methodology.  
+• Financial proposal.  
+• Tender security.  
+• JV agreement, if applicable.  
+
+Only include documents actually required by the tender.
+
+Do not create a generic document checklist.
+
+---
+
+# CV / Personnel Requirements
+
+If the tender contains personnel requirements, create a compact table.
+
+| No. | Position | Minimum Qualification | Required Experience | Qty. |
+|---|---|---|---|---:|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+
+Include only the important personnel requirements.
+
+If there are many personnel positions, include them in a compact form without lengthy explanations.
+
+---
+
+# Hardware Requirements
+
+Include this section only when hardware/equipment is an important part of the tender.
+
+Use:
+
+| No. | Hardware / Equipment | Purpose |
+|---|---|---|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+
+Examples:
+
+- Server
+- Backup server
+- RFID reader
+- POS
+- CCTV
+- Network equipment
+- Data center equipment
+- Sensors
+- Other required equipment
+
+Do not include hardware unless it is actually part of the tender.
+
+---
+
+# Important Dates
+
+Include only the important dates.
+
+• Clarification deadline:  
+• Submission deadline:  
+• Opening date/time:  
+• Contract start date:  
+• Other critical date:
+
+Make the final submission deadline clearly visible.
+
+---
+
+# Key Risks / Important Points
+
+Do not create a large risk register.
+
+Include only the most important 3–6 points that senior management should know.
+
+Examples:
+
+• High experience requirement.  
+• High financial requirement.  
+• Large staffing requirement.  
+• Significant hardware requirement.  
+• Short submission timeline.  
+• Mandatory certification.  
+• Complex system integration.  
+• Significant maintenance obligation.  
+• Strict security requirement.  
+• Important contractual penalty.  
+• Unclear requirement requiring clarification.
+
+Clearly distinguish between:
+
+**Tender Requirement**
+
+and
+
+**Analyst Observation**
+
+Do not present an analyst observation as an actual tender requirement.
+
+---
+
+# Management Decision Points
+
+At the end, provide a very short section:
+
+## Important for Management
+
+Use approximately 3–6 bullets.
+
+Focus on:
+
+- Is the tender relevant to our business?
+- What is the main opportunity?
+- What is the biggest eligibility/qualification requirement?
+- What is the biggest technical requirement?
+- What is the biggest commercial concern?
+- What is the deadline?
+- What clarification may be necessary?
+
+Do NOT automatically decide:
+
+**Bid / No-Bid**
+
+unless I specifically ask for a bid/no-bid recommendation.
+
+If a recommendation is requested, base it only on available evidence and clearly state any missing bidder-specific information.
+
+---
+
+# 6. INFORMATION PRIORITY
+
+When deciding what to include in the Word summary, prioritize information in this order:
+
+1. Tender relevance
+2. What the client wants
+3. Main scope
+4. Software/technology requirements
+5. Eligibility/qualification
+6. JV/consortium position
+7. Commercial requirements
+8. Required personnel
+9. Required documents
+10. Important dates
+11. Major risks
+12. Management decision points
+
+Do not include low-value information simply to make the document longer.
+
+---
+
+# 7. WRITING STYLE
+
+Use simple professional English.
+
+The document should be understandable to a senior manager who has NOT read the tender.
+
+Use:
+
+- Short paragraphs
+- Bullet points
+- Compact tables
+- Clear headings
+- Bold important numbers/dates where appropriate
+
+Avoid:
+
+- Long explanations
+- Academic language
+- Excessive technical terminology
+- Repeating the tender
+- Large quotations
+- Unnecessary analysis
+
+The tone should be:
+
+**Professional + concise + informative + decision-oriented**
+
+---
+
+# 8. SOURCE ACCURACY
+
+For important information, verify it against the tender documents.
+
+Especially verify:
+
+- Tender ID
+- Reference number
+- Deadline
+- Tender security
+- Contract duration
+- Eligibility
+- Experience
+- Turnover
+- Financial requirement
+- JV rules
+- Technology requirements
+- Personnel
+- Submission documents
+
+If multiple tender documents contain different information, do not silently choose one.
+
+Mention the conflict and identify the relevant documents.
+
+---
+
+# 9. FINAL QUALITY CHECK
+
+Before generating the Word file, verify:
+
+[ ] Software/IT relevance checked first.
+
+[ ] Tender was not assumed to be software-related.
+
+[ ] Main idea is clear.
+
+[ ] Important commercial requirements are included.
+
+[ ] Important technical requirements are included.
+
+[ ] No technology stack was assumed.
+
+[ ] Only explicitly mentioned technologies are listed.
+
+[ ] Eligibility requirements are based on the tender.
+
+[ ] JV information comes from the tender.
+
+[ ] No JV strategy was decided for management.
+
+[ ] Required documents are based on the tender.
+
+[ ] Important personnel requirements are included.
+
+[ ] Hardware is included only when relevant.
+
+[ ] Important dates are accurate.
+
+[ ] Major risks/important points are included.
+
+[ ] Missing information is clearly identified.
+
+[ ] No unnecessary information has been added.
+
+[ ] The document is concise and easy for senior management to read.
+
+---
+
+# FINAL PRINCIPLE
+
+The Tender Summary Word file should look like a practical internal briefing document — NOT a full tender analysis report.
+
+A senior manager should be able to read it quickly and understand:
+
+**What is the tender?  
+What do they want?  
+What are the important requirements?  
+Can we understand the opportunity?  
+What are the major concerns?  
+What should management look at before making a decision?**
+
+Keep it simple, factual, and informative.
