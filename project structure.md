@@ -16,25 +16,48 @@ commercial value, and key risks easy to understand at a glance.
 - Generate a concise tender summary suitable for Word export.
 - Keep the first version simple enough to maintain without technical support.
 
-## 3. Suggested Technology
+## 3. Confirmed Technology
 
-- **Frontend:** Streamlit
-- **Language:** Python
-- **Data source:** Excel workbook initially
-- **Data processing:** pandas
-- **Charts:** Plotly
+- **Frontend:** Vite + React + JavaScript
+- **Backend API:** FastAPI
+- **ORM:** SQLAlchemy
+- **Database:** MySQL
 - **Document output:** Existing Word template with `python-docx`
 - **Deployment:** Local first; Azure deployment can be considered later
 
-This choice keeps the first release focused on business value and avoids
-building a separate backend before the data model is proven.
+The first release is a data-entry dashboard for capturing structured fields
+from generated tender summaries. The API owns validation and persistence;
+database credentials are supplied through environment variables.
 
 ## 4. Proposed Directory Structure
 
 ```text
 Tender tracker dashboard/
-|-- app.py
-|-- requirements.txt
+|-- frontend/
+|   |-- package.json
+|   |-- src/
+|   |   |-- App.jsx
+|   |   |-- main.jsx
+|   |   |-- api/
+|   |   |-- components/
+|   |   |-- pages/
+|   |   `-- styles/
+|   `-- vite.config.js
+|
+|-- backend/
+|   |-- requirements.txt
+|   |-- .env.example
+|   |-- app/
+|   |   |-- main.py
+|   |   |-- config.py
+|   |   |-- database.py
+|   |   |-- models.py
+|   |   |-- schemas.py
+|   |   |-- crud.py
+|   |   `-- routers/
+|   |       `-- tenders.py
+|   `-- tests/
+|
 |-- README.md
 |-- project structure.md
 |-- .gitignore
@@ -216,3 +239,57 @@ than replaced.
 - The definition of win probability.
 - Which users can edit tender data.
 - Whether Word export is required for every tender or only selected tenders.
+
+## 12. Confirmed Word Summary Requirements
+
+The files in `Tender Summery Pattern/` are the authoritative requirements for
+the Word output:
+
+- Target length is normally 2-5 pages.
+- Check and display software/IT relevance first using one of:
+  `SOFTWARE / IT RELATED`, `PARTIALLY SOFTWARE / IT RELATED`,
+  `NOT SOFTWARE / IT RELATED`, or `UNCLEAR`.
+- Use tender-supported facts only. Missing facts must say
+  `Not specified in the tender documents.`; uncertain facts must say
+  `Cannot be determined from the available documents.`
+- Never infer a technology stack, eligibility, budget, duration, staffing,
+  certification, or JV strategy.
+- Report only the tender's stated JV, consortium, subcontracting, lead-member,
+  and local-partner position.
+- Remove optional sections that do not apply; do not leave empty sections.
+- Include only decision-relevant commercial and technical requirements.
+- Clearly label risks as `Tender Requirement` or `Analyst Observation`.
+- Do not make a Bid/No-Bid recommendation unless explicitly requested.
+- Verify important facts against the source documents and flag conflicts.
+
+### Required Summary Sections
+
+The generated Word document should use this order when applicable:
+
+1. Centered `TENDER SUMMARY` title and `Tender ID | Short Tender Title`
+   subtitle.
+2. Basic Information: country, project name, tender title, reference number,
+   tender ID, client/organization, portal, published date, last date, and
+   submission time.
+3. Requirements: main idea, commercial requirements, technical requirements,
+   software/technology mentioned, and operational/service requirements.
+4. Key Eligibility / Qualification.
+5. JV / Consortium.
+6. Documents Required in Submission.
+7. CV / Personnel Requirements (only when named personnel are required).
+8. Hardware Requirements (only when hardware is material to the tender).
+9. Important Dates.
+10. Key Risks / Important Points.
+11. Important for Management.
+
+### Word Visual Design
+
+- US Letter page size with 0.55 inch top/bottom and 0.65 inch left/right
+  margins.
+- Calibri throughout the document.
+- Section headings use blue `#365F91`; subheadings use blue `#4F81BD`.
+- Basic Information uses a two-column label/value table.
+- Data-table headers use the specified blue header fill from the master
+  template.
+- Every page has a centered 8 pt footer:
+  `Tender Summary | Tender ID [ID]`.
